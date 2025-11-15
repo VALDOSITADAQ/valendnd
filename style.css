@@ -1,82 +1,80 @@
+/* TIPOGRAFÍA Y BASE */
 body {
-  font-family: "Segoe UI", sans-serif;
-  background-color: #fff8f0;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: #e8f5e9;
+    color: #1b1b1b;
+    margin: 0;
+    padding: 0;
 }
 
-/* ====== HEADER ====== */
-header {
-  background-color: #ffb347;
-  color: white;
-  text-align: center;
-  padding: 20px 10px;
+/* ENCABEZADOS */
+h1, h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #1b5e20;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2em;
-}
-
-/* ====== NAVEGACIÓN ====== */
+/* NAV */
 nav {
-  margin-top: 10px;
+    background-color: #1b5e20;
+    padding: 12px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #a5d6a7;
 }
 
+/* CONTENIDO */
+section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+article {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #1b5e20;
+}
+
+/* IMÁGENES ADAPTABLES */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* BOTONES */
 .boton {
-  display: inline-block;
-  background-color: white;
-  color: #ff8c00;
-  text-decoration: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+    display: inline-block;
+    background-color: #1b5e20;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 6px;
+    text-decoration: none;
 }
-
 .boton:hover {
-  background-color: #ffe6cc;
+    background-color: #388e3c;
 }
 
-/* ====== POSTS ====== */
-main {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 0 20px;
-}
-
-.post {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.post h2 {
-  color: #ff8c00;
-}
-
-/* ====== ABOUT ====== */
-.about {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  padding: 30px;
-}
-
-.about h2 {
-  color: #ff8c00;
-}
-
-/* ====== FOOTER ====== */
+/* FOOTER */
 footer {
-  text-align: center;
-  background-color: #ffb347;
-  color: white;
-  padding: 10px;
-  margin-top: 30px;
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+/* CLASE EXTRA */
+.centrado {
+    text-align: center;
+    margin-top: 50px;
 }
 
